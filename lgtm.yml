@@ -2,5 +2,3 @@ extraction:
   csharp:
      index:
         all_solutions: true
-        build_command:
-        - msbuild ./ConsoleApp5/ConsoleApp5.sln
