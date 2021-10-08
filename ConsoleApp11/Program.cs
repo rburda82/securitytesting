@@ -7,12 +7,12 @@ namespace ConsoleApp11
     {
         static void Main(string[] args)
         {
-            var value1 = JsonConvert.DeserializeObject<object>(args[1], new JsonSerializerSettings
+            var value2 = JsonConvert.DeserializeObject<object>(args[1], new JsonSerializerSettings
             {
                 TypeNameHandling = TypeNameHandling.Auto
             });
 
-            Console.WriteLine(value1.ToString());
+            Console.WriteLine(value2.ToString());
         }
     }
 }
